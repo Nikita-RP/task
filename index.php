@@ -14,7 +14,7 @@ if(!(isset($_GET['c']) || isset($_GET['C']))){
     echo "Please pass value for index: C";
     exit;
 }
-$Sum exec('python C:\xampp\htdocs\Surbhi_programe\first.py ' . implode(' ', $_GET)); //getting value from python after addition
+$Sum exec('python C:\xampp\htdocs\task\first.py ' . implode(' ', $_GET)); //getting value from python after addition
 print("Total is $sum");
 
 
